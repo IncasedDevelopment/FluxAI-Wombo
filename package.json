@@ -1,0 +1,31 @@
+{
+  "name": "FluxAI-Wombo",
+  "version": "1.4.0",
+  "description": "FluxAI Wombo, is a Discord bot that connects to the wombo.art API and generates images based on a set of rules.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IncasedDevelopment/FluxAI-Wombo.git"
+  },
+  "keywords": [
+    "unofficial-api"
+  ],
+  "author": "IncasedDevelopment <admin@fluxnetworks.xyz>",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/IncasedDevelopment/FluxAI-Wombo/issues"
+  },
+  "homepage": "https://github.com/IncasedDevelopment/FluxAI-Wombo#readme",
+  "dependencies": {
+    "mkdirp": "^1.0.4"
+  },
+  "devDependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.25.2",
+    "discord.js": "^13.3.1",
+    "yargs": "^17.3.0"
+  }
+}
